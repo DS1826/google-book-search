@@ -1,4 +1,4 @@
-# My Portfolio Website
+# Google Book Search - Powered by React :books:
 
 This Google Book search is powered by React and features the ability to search the Google Books API for your next read and save a list of books for future reading.
 
