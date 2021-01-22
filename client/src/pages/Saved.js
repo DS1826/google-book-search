@@ -22,11 +22,18 @@ function Books() {
       .catch(err => console.log(err));
   };
 
+  function deleteBook(id) {
+    API.deleteBook(id)
+      .then(res => loadBooks())
+      .catch(err => console.log(err));
+  }
+
+
 
     return (
       <Container fluid>
         <Row>
-        <Col size="md-12"><h1 className="card-title">My Saved Books</h1></Col>
+        <Col size="md-12"><h1 className="card-title text-center">My Saved Books</h1></Col>
         </Row>
         <Row>
           <Col size="md-12 sm-12">
@@ -45,7 +52,10 @@ function Books() {
                       </a>
                       </Col>
                       <Col size="md-2">
-                      <button className="button" onClick={() =>{}}>Delete</button>
+                      
+                      <a href={book.link} className="btn btn-secondary" target="_blank" >View</a>
+                      <button className="btn btn-secondary ml-3" onClick={() => {deleteBook(book._id)}}>Delete</button>
+                      
                       </Col>
                       </Row>
                       <Row>
