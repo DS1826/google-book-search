@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Search from "./pages/Search";
-// import Saved from "./pages/Saved";
+import Saved from "./pages/Saved";
+import "./App.css";
 
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
@@ -16,7 +17,7 @@ function App() {
     <Wrapper>
       <Route exact path ="/" component={Search} />
       <Route exact path ="/search" component={Search} />
-      {/* <Route exact path ="/saved" component={Saved} /> */}
+      <Route exact path ="/saved" component={Saved} />
       </Wrapper>
     </div>
     </Router>
