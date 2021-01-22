@@ -1,8 +1,6 @@
 html, body {
     margin: 0;
     background-color: #e8eddf;
+    color: #383123;
 }
 
-.nav-link {
-    color: #eee!important;
-}
