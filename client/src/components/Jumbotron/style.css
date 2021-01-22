@@ -1,0 +1,13 @@
+.jumbotron-fluid {
+    height: 250px;
+    clear: both;
+    padding: 70px 0px 0px 25px;
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: #383123;
+    color: white;
+    background-image: url("../../book.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.7;
+}
