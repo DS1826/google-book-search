@@ -17,7 +17,7 @@ This project was created with:
 * Javascript
 
 ## Deployment
-This website is currently deployed via Heroku: Link TBA
+This website is currently deployed via Heroku: [Google Book Search](https://calm-retreat-58231.herokuapp.com/)
 
 ## Acknowledgments
 This project was completed with following resources:
