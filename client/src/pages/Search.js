@@ -93,7 +93,7 @@ function Search() {
                         </Col>
                         <Col size="md-2">
 
-                          <a href={book.link} className="btn btn-secondary" target="_blank">View</a>
+                          <a href={book.volumeInfo.infoLink} className="btn btn-secondary" target="_blank">View</a>
                           <button className="btn btn-secondary ml-3" onClick={() => { handleSave(book) }}>Save</button>
                         
                         </Col>
