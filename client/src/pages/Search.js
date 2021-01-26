@@ -100,7 +100,10 @@ function Search() {
                       </Row>
                       <Row>
                         <Col size="md-2">
-                          <img src={book.volumeInfo.imageLinks.thumbnail} alt="cover" />
+                        {(book.volumeInfo.imageLinks?.thumbnail) ?
+                          <img src={book.volumeInfo.imageLinks.thumbnail} alt="cover" /> :
+                          <p>No Image Available</p>
+                        }
                         </Col>
                         <Col size="md-10">
                           <p>{book.volumeInfo.description}</p>
